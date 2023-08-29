@@ -1,5 +1,5 @@
 let lastRenderTime= 0
-const SNAKE_SPEED=20
+const SNAKE_SPEED=100
 function main(currentTime){
     window.requestAnimationFrame(main)
     const secondsSinceLastRender=(currentTime-lastRenderTime)/1000
